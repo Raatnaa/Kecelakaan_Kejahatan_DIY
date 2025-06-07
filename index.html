@@ -49,6 +49,19 @@
       color: white;
       font-size: 0.9rem;
     }
+
+    ul {
+      text-align: left;
+      display: inline-block;
+      margin: 1rem auto;
+      padding-left: 1.5rem;
+    }
+
+    .symbol {
+      margin-top: 1rem;
+      font-style: italic;
+      color: #c0392b;
+    }
   </style>
 </head>
 <body>
@@ -61,10 +74,27 @@
     Berdasarkan data yang diambil dari open source, didapatkan beberapa kasus kecelakaan dan kejahatan yang intensitasnya 
     divisualisasikan dengan peta ini. Keberadaan pos polisi juga ditampilkan dalam peta ini dengan harapan 
     visitor dapat mengetahui jauh atau dekatnya lokasi terhadap pos polisi. <br><br>
+
     <strong>Zona warna:</strong><br>
     🟢 <strong>Hijau</strong>: Dekat<br>
     🟡 <strong>Kuning</strong>: Sedang<br>
-    🟠 <strong>Jingga</strong>: Sedikit Jauh
+    🟠 <strong>Jingga</strong>: Sedikit Jauh<br><br>
+
+    <strong>Informasi lainnya:</strong><br>
+    Intensitas kecelakaan yang banyak terjadi di jalan DIY dengan keterangan sebagai berikut:
+    <ul>
+      <li>Jalan Magelang: 70 kasus</li>
+      <li>Jalan Jogja-Solo: 63 kasus</li>
+      <li>Jalan Siliwangi: 50 kasus</li>
+      <li>Jalan Padjajaran (Monjali–Maguwo): 49 kasus</li>
+      <li>Jalan Wates (Pasar Gamping–Balecatur): 43 kasus</li>
+      <li>Jalan Laksda Adisucipto (Maguwo hingga UIN): 35 kasus</li>
+      <li>Jalan Godean: 45 kejadian</li>
+    </ul>
+
+    <div class="symbol">
+      Simbol <strong>"danger"</strong> berupa gambar tengkorak berbingkai merah muda merupakan simbol untuk jalan yang dianggap rawan kejahatan dan pernah terjadi kejahatan terutama di jam malam.
+    </div>
   </div>
 
   <iframe 
@@ -73,7 +103,7 @@
   </iframe>
 
   <footer>
-    © 2025 – Peta Interaktif oleh Ratna Utami
+     2025 – Peta Interaktif oleh Ratna Utami
   </footer>
 
 </body>
