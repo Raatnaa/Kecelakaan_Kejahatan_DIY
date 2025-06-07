@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kajian Spasial Kejahatan, Kecelakaan, dan Distribusi Pos Polisi di Daerah Istimewa Yogyakarta</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .description {
+      padding: 1.5rem 2rem;
+      background-color: #ffffff;
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    iframe {
+      width: 100%;
+      height: 80vh;
+      border: none;
+      display: block;
+      margin-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #003366;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Peta Kejahatan, Kecelakaan, dan Pos Polisi di DIY</h1>
+  </header>
+
+  <div class="description">
+    Berdasarkan data yang diambil dari open source, didapatkan beberapa kasus kecelakaan dan kejahatan yang intensitasnya 
+    divisualisasikan dengan peta ini. Keberadaan pos polisi juga ditampilkan dalam peta ini dengan harapan 
+    visitor dapat mengetahui jauh atau dekatnya lokasi terhadap pos polisi. <br><br>
+    <strong>Zona warna:</strong><br>
+    🟢 <strong>Hijau</strong>: Dekat<br>
+    🟡 <strong>Kuning</strong>: Sedang<br>
+    🟠 <strong>Jingga</strong>: Sedikit Jauh
+  </div>
+
+  <iframe 
+    src="https://ugmid.maps.arcgis.com/apps/webappviewer/index.html?id=4e70bb6bb67e401e9c67c26fc56aa4dd" 
+    allowfullscreen>
+  </iframe>
+
+  <footer>
+    © 2025 – Peta Interaktif oleh Ratna Utami
+  </footer>
+
+</body>
+</html>
